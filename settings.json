@@ -1,0 +1,15 @@
+{
+    // For ligature fonts (custom sybols)
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    // General settings:
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0.4,
+    "editor.fontSize": 18,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "One Dark Pro Darker"
+}
