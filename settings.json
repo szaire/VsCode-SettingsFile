@@ -1,48 +1,37 @@
 {
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ecf2f87c"
-  },
-
-  "editor.fontSize": 17,
-  "editor.fontLigatures": false,
-  "terminal.integrated.lineHeight": 1.25,
-
-  // Code runner:
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.ignoreSelection": true,
-  "code-runner.runInTerminal": true,
-  "code-runner.executorMap": {
-    "python": "~/anaconda3/bin/python"
-  },
-
-  //Python linting
-  "python.linting.mypyEnabled": false,
-  "python.linting.flake8Enabled": false,
-  "python.testing.unittestEnabled": false,
-
-  //Python config
-  "[python]": {
-    "editor.formatOnSave": true
-  },
-  "python.languageServer": "Pylance",
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.fontSize": 17,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.fontFamily": "JetBrains Mono",
-  "terminal.integrated.inheritEnv": false,
-  "python.condaPath": "/home/samueo/anaconda3/bin/activate",
-  "files.autoSave": "onWindowChange",
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.respectShebang": false,
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorStyle": "block",
+  // cursor color
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#abb2bf",
+    "terminalCursor.foreground": "#abb2bf"
+  },
   "editor.bracketPairColorization.enabled": false,
-  "editor.formatOnSave": true,
-  "reactSnippets.settings.prettierEnabled": true,
-  "markdown.experimental.validate.enabled": true,
-  "editor.stickyTabStops": true,
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorStyle": "block"
+  // indent rainbow
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  "editor.codeLens": false,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.localEchoStyle": "dim",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.75,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.enableSmartCommit": true,
+  "editor.formatOnType": true,
+  "window.menuBarVisibility": "toggle",
 }
