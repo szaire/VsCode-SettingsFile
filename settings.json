@@ -1,27 +1,19 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.fontFamily": "JetBrains Mono",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorStyle": "block",
+  "editor.tabSize": 4,
+  "editor.comments.insertSpace": false,
+  "editor.detectIndentation": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  
   // cursor color
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#abb2bf",
     "terminalCursor.foreground": "#abb2bf"
   },
-  "editor.bracketPairColorization.enabled": false,
-  // indent rainbow
-  // Using the light mode
-  "indentRainbow.indicatorStyle": "light",
-  // we use a simple 1 pixel wide line
-  "indentRainbow.lightIndicatorStyleLineWidth": 1,
-  // the same colors as above but more visible
-  "indentRainbow.colors": [
-    "rgba(255,255,64,0.3)",
-    "rgba(127,255,127,0.3)",
-    "rgba(255,127,255,0.3)",
-    "rgba(79,236,236,0.3)"
-  ],
+  
   "editor.codeLens": false,
   "files.autoSave": "onFocusChange",
   "terminal.integrated.fontFamily": "JetBrains Mono",
@@ -34,4 +26,34 @@
   "git.enableSmartCommit": true,
   "editor.formatOnType": true,
   "window.menuBarVisibility": "toggle",
+  "git.confirmSync": false,
+  "todo-tree.highlights.customHighlight": {
+
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "XXX": {
+      "icon": "x"
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    }
+  },
+  "todo-tree.highlights.enabled": false,
+  "terminal.integrated.fontSize": 15,
+  "editor.insertSpaces": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.startupEditor": "none",
+  "debug.onTaskErrors": "debugAnyway",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.indentSize": "tabSize",
 }
