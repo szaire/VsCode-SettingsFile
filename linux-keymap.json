@@ -5,7 +5,7 @@
         "command": "-welcome.showNewFileEntries"
     },
     {
-        "key": "ctrl+n ctrl+n",
+        "key": "ctrl+n",
         "command": "explorer.newFile"
     },
     {
@@ -15,10 +15,6 @@
     {
         "key": "ctrl+alt+n",
         "command": "explorer.newFolder"
-    },
-    {
-        "key": "ctrl+n ctrl+c",
-        "command": "csharpextensions.createClass"
     },
     {
         "key": "ctrl+shift+down",
