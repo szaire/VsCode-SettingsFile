@@ -1,59 +1,63 @@
 {
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.fontFamily": "JetBrains Mono",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorStyle": "block",
-  "editor.tabSize": 4,
-  "editor.comments.insertSpace": false,
-  "editor.detectIndentation": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  
-  // cursor color
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#abb2bf",
-    "terminalCursor.foreground": "#abb2bf"
-  },
-  
-  "editor.codeLens": false,
-  "files.autoSave": "onFocusChange",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "debug.console.fontFamily": "JetBrains Mono",
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.localEchoStyle": "dim",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 1.75,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "git.enableSmartCommit": true,
-  "editor.formatOnType": true,
-  "window.menuBarVisibility": "toggle",
-  "git.confirmSync": false,
-  "todo-tree.highlights.customHighlight": {
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.fontFamily": "JetBrains Mono",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.cursorStyle": "block",
+	"editor.tabSize": 4,
+	"editor.comments.insertSpace": false,
+	"editor.detectIndentation": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	
+	// cursor color
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#abb2bf",
+		"terminalCursor.foreground": "#abb2bf"
+	},
+	
+	"editor.codeLens": false,
+	"files.autoSave": "onFocusChange",
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"debug.console.fontFamily": "JetBrains Mono",
+	"terminal.integrated.localEchoStyle": "dim",
+	"editor.lineHeight": 1.75,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.enableSmartCommit": true,
+	"editor.formatOnType": true,
+	"window.menuBarVisibility": "compact",
+	"git.confirmSync": false,
+	"todo-tree.highlights.customHighlight": {
 
-    "BUG": {
-      "icon": "bug"
-    },
-    "HACK": {
-      "icon": "tools"
-    },
-    "FIXME": {
-      "icon": "flame"
-    },
-    "XXX": {
-      "icon": "x"
-    },
-    "[ ]": {
-      "icon": "issue-draft"
-    },
-    "[x]": {
-      "icon": "issue-closed"
-    }
-  },
-  "todo-tree.highlights.enabled": false,
-  "terminal.integrated.fontSize": 15,
-  "editor.insertSpaces": false,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.startupEditor": "none",
-  "debug.onTaskErrors": "debugAnyway",
-  "editor.bracketPairColorization.enabled": false,
-  "editor.indentSize": "tabSize",
+		"BUG": {
+			"icon": "bug"
+		},
+		"HACK": {
+			"icon": "tools"
+		},
+		"FIXME": {
+			"icon": "flame"
+		},
+		"XXX": {
+			"icon": "x"
+		},
+		"[ ]": {
+			"icon": "issue-draft"
+		},
+		"[x]": {
+			"icon": "issue-closed"
+		}
+	},
+	"todo-tree.highlights.enabled": false,
+	"terminal.integrated.fontSize": 15,
+	"editor.insertSpaces": false,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"workbench.startupEditor": "none",
+	"debug.onTaskErrors": "debugAnyway",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.indentSize": "tabSize",
+	"workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
+	"workbench.preferredLightColorTheme": "Default Dark Modern",
+	"workbench.colorTheme": "Default Dark Modern",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0.25,
+	"editor.fontSize": 15
 }
