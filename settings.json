@@ -1,10 +1,10 @@
 {
+	"keyboard.dispatch": "keyCode", // Resolver o problema do ctrl+/ no fedora
 	"security.workspace.trust.untrustedFiles": "open",
 	"editor.fontFamily": "JetBrains Mono",
 	"workbench.iconTheme": "material-icon-theme",
 	"editor.cursorStyle": "block",
 	"editor.tabSize": 4,
-	"editor.comments.insertSpace": false,
 	"editor.detectIndentation": true,
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	
@@ -48,7 +48,6 @@
 	},
 	"todo-tree.highlights.enabled": false,
 	"terminal.integrated.fontSize": 15,
-	"editor.insertSpaces": false,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"workbench.startupEditor": "none",
 	"debug.onTaskErrors": "debugAnyway",
@@ -56,8 +55,7 @@
 	"editor.indentSize": "tabSize",
 	"workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
 	"workbench.preferredLightColorTheme": "Default Dark Modern",
-	"workbench.colorTheme": "Default Dark Modern",
 	"window.titleBarStyle": "custom",
-	"window.zoomLevel": 0.25,
-	"editor.fontSize": 15
+	"editor.fontSize": 15,
+	"editor.insertSpaces": false
 }
