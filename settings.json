@@ -1,5 +1,5 @@
 {
-	"keyboard.dispatch": "keyCode", // Resolver o problema do ctrl+/ no fedora
+	// "keyboard.dispatch": "keyCode", // Resolver o problema do ctrl+/ no fedora
 	"security.workspace.trust.untrustedFiles": "open",
 	"editor.fontFamily": "JetBrains Mono",
 	"workbench.iconTheme": "material-icon-theme",
